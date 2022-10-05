@@ -47,9 +47,17 @@ public class C02BasicOutputMethod {
 		System.out.printf("%s    %s    %s    %s\n","No","이름","나이" ,"주소"       );
 		System.out.printf("%d    %s    %d    %s\n", 2, "이태수",55,"울산");
 		System.out.printf("%d    %s    %d    %s\n", 2, "이지성",44,"김해");
-		//git.
+
 		
 		//03 System.out.println()
+		
+		System.out.println("HELLO WORLD");
+		System.out.println("HELLO WORLD");
+		System.out.println("HELLO WORLD");
+		System.out.println("HELLO WORLD");
+		
+		System.out.println("I SAY \"HELLO?\"");
+		
 		
 		
 		
