@@ -12,7 +12,7 @@ public class C05TypeChangeArithmethic {
 		
 		System.out.println("num1 : "+num1);
 		System.out.println("num2 : "+num2);
-		System.out.println("num3 : "+num3);
+		System.out.println("num3 : "+num3);  //문자열+숫자(연결)
 		
 	}
 

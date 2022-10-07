@@ -7,6 +7,10 @@ public class C01TypeChange {
 		//컴파일러에 의한 자동형변환
 		//byte < short < int< long < float < double  - 데이터 손실을 최소화
 		
+		//형변환 종류
+		//자동형변환(암시적) : 컴파일러에 의해 자동 형변환
+		//강제형변환(명시적) : 프로그래머에 의해 강제 형변환
+		
 		byte byteValue = 10;
 		int intValue = byteValue;
 		System.out.println("intValue: " + intValue);
@@ -24,7 +28,7 @@ public class C01TypeChange {
 		System.out.println("floatValue: " + floatValue);
 		
 		floatValue = 100.5F;
-		double doubleValue = floatValue;
+		double doubleValue = floatValue; 
 		System.out.println("doubleValue: " + doubleValue);
 	} 
 }

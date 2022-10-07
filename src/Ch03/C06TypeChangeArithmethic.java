@@ -8,6 +8,9 @@ public class C06TypeChangeArithmethic {
 
 		double dnum2 = (double)num1 / num2;	//나누는 수를 double형으로 강제 형변환함으로서 연산결과 발생되는
 											//소수점을 표현할 공간을 마련 
+		double dnum3 = (1.0*num1) / num2;
+		
+		System.out.println("dnum3:"+dnum3);
 		System.out.println("dnum1 : " +dnum1);
 		System.out.println("dnum2 : " +dnum2);
 	}

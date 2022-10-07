@@ -31,7 +31,7 @@ char charValute = 'A';
 ----------------------------
 1) int intValue = byteValue;
 2) int intValue = charValue;
-3) short shortValue = charValue;
+3) short shortValue = charValue;   //char는 양수만지원
 4) double doubleValue = byteValue;
 
 
@@ -47,7 +47,7 @@ String strValue = "A";
 1) double var = (double)intValue;
 2) byte var = (byte) intValue;
 3) int var = (int)doubleVale;
-4) char var = (Char)strValue;
+4) char var = (char)strValue;   
 
 
 3. 연산식에서의 타입 변환에 대한 내용입니다. 컴파일 에러가 발생하는 것은 무엇입니까?
@@ -57,7 +57,7 @@ byte byteValue = 10;
 float floatValue = 2.5;
 double doubleValue = 2.5;
 ----------------------------
-1) byte result = byteValue + byteValue;
+1) byte result = byteValue + byteValue; //int로 변환해야함
 2) int result = 5 + byteValue;
 3) float result = 5 + floatValue;
 4) double result = 5 + doubleValue;
@@ -69,7 +69,7 @@ short s1 = 1;
 short s2 = 2;
 int i1 = 3;
 int i2 = 4;
-short result = s1 + s2;
+short result = s1 + s2; 
 int result = i1 + i2;
 ----------------------------
 
@@ -92,7 +92,7 @@ System.out.println(c2);
 ----------------------------
 int x = 5;
 int y = 2;
-____ result = x/y;
+_int___ result = x/y;
 System.out.println(result);
 ----------------------------
 
@@ -102,7 +102,7 @@ System.out.println(result);
 ----------------------------
 int x = 5;
 int y = 2;
-____ result = _____________;
+__double__ result = (double)_x/y_or (1.0*x)/y___________;
 System.out.println(result);
 ----------------------------
 
@@ -113,7 +113,7 @@ System.out.println(result);
 ----------------------------
 double var1 = 3.5;
 double var2 = 2.7;
-int result = _____________;
+int result = (int)(3.5+2.7)____________;
 ----------------------------
 
 9. var1 부터 var4까지 + 연산을 수행해서 int 타입 result변수에 9가 저장되도록
@@ -144,10 +144,10 @@ System.out.println(str3);
 빈칸에 알맞은 코드를 작성해 보세요
 [예시]
 ----------------------------
- byte value =	_________("10");
- int value = 	_________("100);
- float value =	_________("20.5");
- double value =	_________("3.14159");
+ byte value =	_Byte.parseByte("10")________;
+ int value = 	Integer.parseInt_________("100);
+ float value =	Float.parseFloat_________("20.5");
+ double value =	_Double.parseDouble________("3.14159");
 ----------------------------
 
 

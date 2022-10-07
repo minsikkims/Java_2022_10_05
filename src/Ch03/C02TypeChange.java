@@ -9,8 +9,8 @@ public class C02TypeChange {
 		//기본적으로 불가능하기 때문에 강제로 자료형을 바꾸어 전달한다
 		//데이터 손실의 염려가 있다
 		
-		int intValue = 44032;
-		char charValue = (char)intValue;
+		int intValue = 44032; //44032 = 유니코드값
+		char charValue = (char)intValue; 
 		System.out.println(charValue);
 		
 		long longValue = 500;
