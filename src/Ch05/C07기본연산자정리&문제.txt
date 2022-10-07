@@ -42,7 +42,7 @@ System.out.println(z);
 ----------------------------
 int var1 = 5;
 int var2 = 2;
-double var3 = var1 / var2;
+double var3 = (double)var1 / var2;
 int var4=(int)(var3 * var2);
 System.out.println(var4);
 ----------------------------
@@ -79,6 +79,7 @@ System.out.println(var4);
  int score = 85;
  String result = (!(score>90)) ? "가" : "나";
  System.out.println(result);
+ 가
 ----------------------------
 
 
